@@ -4,6 +4,7 @@
 name: Hexo Blog Automation Deployment
 
 on:
+    workflow_dispatch:
     push:
         branches: [ main ]
 
